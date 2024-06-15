@@ -1,0 +1,41 @@
+body{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+
+}
+
+
+#content{
+    display: flex;
+    width: 98%;
+    margin: auto;
+}
+
+#left{
+    width: 40%;
+    border-right: 1px solid lightgray;
+}
+
+#right{
+    width: 60%;
+    margin-left: 10px;
+}
+
+.skills{
+    list-style: none;
+    align-content: center;
+}
+
+.skills i{
+    margin-right: 10px;
+    font-size: 1.4rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
